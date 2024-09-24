@@ -35,7 +35,7 @@ namespace Updater
             };
             timer.Elapsed += delegate
             {
-                AutoUpdater.Start("https://github.com/SlideCodesoftware/Updater/blob/main/Updater/Atualizar/Update.xml");
+                AutoUpdater.Start("https://github.com/SlideCodesoftware/Updater/Update.xml");
             };
             timer.Start();
         }
@@ -75,8 +75,7 @@ namespace Updater
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            //AutoUpdater.Start("https://raw.githubusercontent.com/lils0uxz/Updater/master/Update.xml");
-            AutoUpdater.Start("https://github.com/SlideCodesoftware/Updater/blob/main/Updater/Atualizar/Update.xml");
+            AutoUpdater.Start("https://github.com/SlideCodesoftware/Updater/Update.xml");
         }
     }
 }
