@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Updater/Atualizar/Update.xml
+/Update.xml
+/.gitignore
